@@ -1,4 +1,4 @@
-const apiKey = 'BB8JV33ED15VA4ZU1MRC4WWIG1TBT2V86V';
+const apiKey = 'YOUR API KEY HERE';
 
         let web3;
         let contractAddress = '0xc14B4d4CA66f40F352d7a50fd230EF8b2Fb3b8d4';
@@ -49,13 +49,11 @@ const apiKey = 'BB8JV33ED15VA4ZU1MRC4WWIG1TBT2V86V';
             balance = balance.toFixed(4);
             document.getElementById('tokenBalance').value = balance;
       
-            // Calculate tier based on token balance
             let tier = calculateTier(balance);
             document.getElementById('yourTier').value = tier;
       
             console.log('Token Balance:', balance);
       
-            // Fetch current price in USD
             let priceResponse = await fetch('https://api.coingecko.com/api/v3/simple/price?ids=blocktools&vs_currencies=usd');
             let priceData = await priceResponse.json();
       
