@@ -21,7 +21,7 @@ Now, we look at:
 - Integrating Coingecko API for some token information
 - Integration Etherscan API for some token information
 - Adding some calculations for a portfolio value based on the Token price x holdings
-- Getting the Marketcap
+- Getting the Marketcap (Replace 100,000, which is the tools Total Supply, with the TS of the Token you are tracking)
 - Adding additional information to this such as a Tiers system for amount of holdings.
 
 You will need to get a free API KEY from Etherscan. 
