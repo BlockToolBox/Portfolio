@@ -1,0 +1,72 @@
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin-bottom: 8px;
+  padding-bottom: 8px;
+}
+
+
+.content {
+      text-align: center;
+  }
+
+
+  .connect-container {
+    border: 1px solid black;
+    background-color: navy;
+    color: white;
+    padding: 10px; /* Adjust padding as desired */
+  }
+
+  .date-container {
+    border: 1px solid black;
+    background-color: navy;
+    color: white;
+    }
+
+  .address-container {
+      border: 1px solid black;
+      background-color: navy;
+      color: white;
+      }
+      
+  .balance-container {
+      border: 1px solid black;
+      background-color: navy;
+      color: white;
+      }
+      
+
+      .tools-container {
+        border: 1px solid black;
+        background-color: navy;
+        color: white;
+        }
+
+        .pfolio-container {
+          border: 1px solid black;
+          background-color: navy;
+          color: white;
+          }
+
+  .mc-container {
+      border: 1px solid black;
+      background-color: navy;
+      color: white;
+      }
+
+      .holders-container {
+        border: 1px solid black;
+        background-color: navy;
+        color: white;
+        }
+  
+        .tier-container {
+          border: 1px solid black;
+          background-color: navy;
+          color: white;
+          }
+      
