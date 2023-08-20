@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+    <title>Dash</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta property="og:title" content="Blocktools Dash">
+  <meta property="og:description" content="Welcome to BlockTools.org! The place to be for on-chain tech and its various quirks!">
+  <meta property="og:url" content="https://blocktools.org/shop">
+  <meta property="og:type" content="website">
+  <link rel="stylesheet" href="main.css">
+    <link rel="icon" type="image/png" href="assets/favicon.png">
+    <script src="https://cdn.jsdelivr.net/npm/web3@1.5.2/dist/web3.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@metamask/onboarding@1.0.1/dist/metamask-onboarding.bundle.js"></script>
+    <script src="app.js"></script>
+  </head>
+<body>
+
+  <div class="container">
+    <h1>Token Balance Checker</h1>
+    
+    <div class="connect-container">
+      <button id="cnctBtn" class="connect-button" onclick="connectWallet()">Connect Wallet</button>
+    </div>
+
+    <div class="date-container">
+      <label for="todayDate">Today's Date</label>
+      <input type="text" id="todayDate" readonly>
+    </div>
+
+    <div class="address-container">
+      <label for="userAddress">User Address</label>
+      <input type="text" id="userAddress" readonly>
+    </div>
+    
+    <div class="balance-container">
+      <label for="tokenBalance">Token Balance</label>
+      <input type="text" id="tokenBalance" readonly>
+    </div>
+
+    <div class="tools-container">
+      <label for="toolsPrice">Tools Price</label>
+      <input type="text" id="toolsPrice" readonly>
+    </div>
+
+    <div class="pfolio-container">
+      <label for="portFolio">Portfolio Value</label>
+      <input type="text" id="portFolio" readonly>
+    </div>
+
+    <div class="mc-container">
+      <label for="marketCap">Marketcap</label>
+      <input type="text" id="marketCap" readonly>
+    </div>
+
+    <div class="tier-container">
+      <label for="yourTier">Your Tier</label>
+      <input type="text" id="yourTier" readonly>
+    </div>
+  </div>
+
+</body>
+</html>
